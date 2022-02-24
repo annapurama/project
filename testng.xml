@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+<parameter name="Key" value="45678"></parameter>
+<listeners>
+<listener class-name="project.Listeners"></listener>
+</listeners>
+  <test name="Test">
+
+<!--
+<groups>
+<run>
+<include name="Smoke"></include>
+</run>
+</groups>
+-->
+    <classes>
+      <class name="project.HrDept"/>
+      <class name="project.LoanDept"/>
+<!-- 
+<methods>
+<exclude name="Test2"/>
+</methods>
+</class>
+-->
+</classes>
+</test>
+
+ <test name="Teste">
+<classes>
+<class name="project.OpenGoogle"/>
+</classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

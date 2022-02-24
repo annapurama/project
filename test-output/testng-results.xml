@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-22T15:49:27 CST" name="Suite" finished-at="2022-02-22T15:49:34 CST" duration-ms="7042">
+    <groups>
+    </groups>
+    <test started-at="2022-02-22T15:49:27 CST" name="Test" finished-at="2022-02-22T15:49:27 CST" duration-ms="148">
+      <class name="project.HrDept">
+        <test-method signature="Test3(int)[pri:0, instance:project.HrDept@37d4349f]" started-at="2022-02-22T15:49:27 CST" name="Test3" finished-at="2022-02-22T15:49:27 CST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="bTest4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:project.HrDept@37d4349f]" started-at="2022-02-22T15:49:27 CST" name="bTest4" data-provider="Test6" finished-at="2022-02-22T15:49:27 CST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1st row1st column]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1st row 2nd column]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1st row 3rd column]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest4 -->
+        <test-method signature="bTest4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:project.HrDept@37d4349f]" started-at="2022-02-22T15:49:27 CST" name="bTest4" data-provider="Test6" finished-at="2022-02-22T15:49:27 CST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2st row1st column]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2st row 2nd column]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2st row 3rd column]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest4 -->
+      </class> <!-- project.HrDept -->
+      <class name="project.LoanDept">
+        <test-method signature="Test2()[pri:0, instance:project.LoanDept@506ae4d4]" started-at="2022-02-22T15:49:27 CST" name="Test2" finished-at="2022-02-22T15:49:27 CST" duration-ms="26" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at project.LoanDept.Test2(LoanDept.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="Test1()[pri:0, instance:project.LoanDept@506ae4d4]" started-at="2022-02-22T15:49:27 CST" name="Test1" finished-at="2022-02-22T15:49:27 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- project.LoanDept -->
+    </test> <!-- Test -->
+    <test started-at="2022-02-22T15:49:27 CST" name="Teste" finished-at="2022-02-22T15:49:34 CST" duration-ms="6772">
+      <class name="project.OpenGoogle">
+        <test-method signature="Login()[pri:0, instance:project.OpenGoogle@2a7f1f10]" started-at="2022-02-22T15:49:27 CST" name="Login" finished-at="2022-02-22T15:49:27 CST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Open()[pri:0, instance:project.OpenGoogle@2a7f1f10]" started-at="2022-02-22T15:49:27 CST" name="Open" finished-at="2022-02-22T15:49:34 CST" duration-ms="6751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+      </class> <!-- project.OpenGoogle -->
+    </test> <!-- Teste -->
+  </suite> <!-- Suite -->
+</testng-results>

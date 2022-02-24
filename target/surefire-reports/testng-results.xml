@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-23T15:43:04 CST" name="Suite" finished-at="2022-02-23T15:43:11 CST" duration-ms="7186">
+    <groups>
+    </groups>
+    <test started-at="2022-02-23T15:43:04 CST" name="Test" finished-at="2022-02-23T15:43:04 CST" duration-ms="103">
+      <class name="project.HrDept">
+        <test-method signature="Test3(int)[pri:0, instance:project.HrDept@25084a1e]" started-at="2022-02-23T15:43:04 CST" name="Test3" finished-at="2022-02-23T15:43:04 CST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="bTest4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:project.HrDept@25084a1e]" started-at="2022-02-23T15:43:04 CST" name="bTest4" data-provider="Test6" finished-at="2022-02-23T15:43:04 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1st row1st column]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1st row 2nd column]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1st row 3rd column]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest4 -->
+        <test-method signature="bTest4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:project.HrDept@25084a1e]" started-at="2022-02-23T15:43:04 CST" name="bTest4" data-provider="Test6" finished-at="2022-02-23T15:43:04 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2st row1st column]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2st row 2nd column]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2st row 3rd column]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest4 -->
+      </class> <!-- project.HrDept -->
+      <class name="project.LoanDept">
+        <test-method signature="Test2()[pri:0, instance:project.LoanDept@1b2abca6]" started-at="2022-02-23T15:43:04 CST" name="Test2" finished-at="2022-02-23T15:43:04 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="Test1()[pri:0, instance:project.LoanDept@1b2abca6]" started-at="2022-02-23T15:43:04 CST" name="Test1" finished-at="2022-02-23T15:43:04 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- project.LoanDept -->
+    </test> <!-- Test -->
+    <test started-at="2022-02-23T15:43:04 CST" name="Teste" finished-at="2022-02-23T15:43:11 CST" duration-ms="7186">
+      <class name="project.OpenGoogle">
+        <test-method signature="Login()[pri:0, instance:project.OpenGoogle@4b0d79fc]" started-at="2022-02-23T15:43:04 CST" name="Login" finished-at="2022-02-23T15:43:04 CST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Open()[pri:0, instance:project.OpenGoogle@4b0d79fc]" started-at="2022-02-23T15:43:04 CST" name="Open" finished-at="2022-02-23T15:43:11 CST" duration-ms="7096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+      </class> <!-- project.OpenGoogle -->
+    </test> <!-- Teste -->
+  </suite> <!-- Suite -->
+</testng-results>
